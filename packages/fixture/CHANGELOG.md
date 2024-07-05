@@ -1,5 +1,12 @@
 # fixture
 
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies [f100632]
+  - @nailyjs.nest.modules/redlock@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes
