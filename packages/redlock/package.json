@@ -1,0 +1,42 @@
+{
+  "name": "@nailyjs.nest.modules/redlock",
+  "version": "0.0.1",
+  "description": "A NestJS module for Redlock libributed lock manager",
+  "author": {
+    "name": "Zero",
+    "email": "zero@naily.cc",
+    "url": "https://github.com/groupguanfang"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+github.com/nailyjs/nest-redlock.git",
+    "directory": "packages/redlock"
+  },
+  "bugs": {
+    "email": "zero@naily.cc",
+    "url": "https://github.com/nailyjs/nest-redlock/issues"
+  },
+  "exports": {
+    ".": {
+      "types": {
+        "import": "./lib/types/index.d.cts",
+        "require": "./lib/types/index.d.mts"
+      },
+      "import": "./lib/esm/index.mjs",
+      "require": "./lib/cjs/index.cjs"
+    }
+  },
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.mjs",
+  "types": "lib/types/index.d.ts",
+  "scripts": {
+    "build": "naiup",
+    "prepublishOnly": "naiup"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.10",
+    "@types/redlock": "^4",
+    "redlock": "^4",
+    "tslib": "2.6.3"
+  }
+}
