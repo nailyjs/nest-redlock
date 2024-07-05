@@ -1,4 +1,4 @@
-# Redlock module for nest.js
+# 🔒 Redlock module for nest.js
 
 ## Install
 
