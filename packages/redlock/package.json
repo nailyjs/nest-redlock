@@ -33,6 +33,10 @@
     "build": "naiup",
     "prepublishOnly": "naiup"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "@nestjs/common": "^10.3.10",
     "@types/redlock": "^4",
