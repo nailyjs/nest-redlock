@@ -1,5 +1,11 @@
 # @nailyjs.nest.modules/redlock
 
+## 0.0.4
+
+### Patch Changes
+
+- 710622c: feat: update readme
+
 ## 0.0.3
 
 ### Patch Changes

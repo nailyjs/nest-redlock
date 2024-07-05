@@ -1,6 +1,6 @@
 {
   "name": "@nailyjs.nest.modules/redlock",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A NestJS module for Redlock libributed lock manager",
   "author": {
     "name": "Zero",
